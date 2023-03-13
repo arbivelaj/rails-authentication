@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   end
 
   def contacts
-
+    @user = current_user
   end
 
 
